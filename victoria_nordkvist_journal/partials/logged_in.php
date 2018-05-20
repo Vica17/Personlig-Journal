@@ -32,20 +32,20 @@
 
       <label for="title">Title</label>
       <input type="text"
-             placeholder="Title"
-             name="title"
-             id="title"
-             class="row">
+      placeholder="Title"
+      name="title"
+      id="title"
+      class="row">
 
-      <label for="subject">Subject</label>
+      <label for="content">Content</label>
       <textarea name="content"
-                placeholder="Write something"
-                id="subject"
-                class="row"></textarea>
+      placeholder="Write something"
+      id="content"
+      class="row"></textarea>
 
       <input type="submit"
-             value="Submit"
-             class="btn">
+      value="Submit"
+      class="btn">
     </form>
   </section>
   <section class="blogpost">
