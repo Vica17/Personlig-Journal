@@ -1,0 +1,83 @@
+
+body {
+  margin:0;
+  padding:0;
+  outline:none;
+  box-sizing: border-box;
+  font-family:"Helvetica",sans-serif;
+  background:#2f93d8;
+}
+.content {
+  position:relative;
+  width:30%;
+  height:460px;
+  padding:15px 30px;
+  margin:15vh auto;
+  background: #fff;
+  border-radius:13px;
+}
+.form {
+  width:100%;
+  height:100%;
+}
+h1, .user, .pass, .title, .description {
+  text-align:center;
+  display:block;
+}
+h1 {
+  color:#595757;
+  font-weight:bold;
+  font-size:45px;
+  margin:35px;
+}
+.user, .pass, .login, .signup, .title, .description, .confirm {
+  width:100%;
+  height:50px;
+  border:none;
+  border-radius:10px;
+  font-size:25px;
+  font-weight:lighter;
+  margin-bottom:35px;
+}
+.user, .pass, .title, .description {
+  background: #e1e8ea;
+}
+.login, .signup, .confirm {
+  color:#fff;
+  cursor:pointer;
+  margin-top:25px;
+  background:#2f93d8;
+}
+.login:hover, .button:hover, .signup:hover, .confirm:hover {
+  background:#2d5fbc;
+}
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-weight: lighter;
+  background: #2f93d8;
+  color: #fff;
+  float: right;
+  text-decoration: none;
+}
+@media only screen and (min-width:280px) {
+  .content {
+    width:80%
+  }
+}
+@media only screen and (min-width:480px) {
+  .content {
+    width:60%
+  }
+}
+@media only screen and (min-width:768px) {
+  .content {
+    width:40%
+  }
+}
+@media only screen and (min-width:992px) {
+  .content {
+    width:30%
+  }
+}
